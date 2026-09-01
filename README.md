@@ -20,5 +20,5 @@
 </picture>
 
 <!-- DATE_START -->
-Last updated: August 2026
+Last updated: September 2026
 <!-- DATE_END -->
