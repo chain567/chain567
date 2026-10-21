@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="510" viewBox="0 0 1280 510" role="img" aria-labelledby="title desc">
-<title id="title">Haptic Navigation — location to physical feedback</title>
+<title id="title">VibeGuide — navigation to left/right physical feedback</title>
 <desc id="desc">System illustration of Android route data, proximity logic, Bluetooth SPP, and an Arduino haptic prototype. Not a hardware photograph or application screenshot.</desc>
 <defs>
   <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1425"/><stop offset="1" stop-color="#162b3c"/></linearGradient>
@@ -10,8 +10,8 @@
 <rect width="1280" height="510" rx="20" fill="url(#grid)"/>
 <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
 <text x="64" y="64" fill="#7ce8db" font-size="17" letter-spacing="3">PHYSICAL COMPUTING / 2025 PROJECT</text>
-<text x="60" y="142" fill="#f3f8fc" font-size="64" font-weight="700">Haptic Navigation</text>
-<text x="64" y="187" fill="#b8cbd9" font-size="24">From route waypoints to a physical cue.</text>
+<text x="60" y="142" fill="#f3f8fc" font-size="64" font-weight="700">VibeGuide</text>
+<text x="64" y="187" fill="#b8cbd9" font-size="24">Navigation cues you can feel.</text>
 <rect x="984" y="52" width="232" height="40" rx="20" fill="#24394b"/>
 <circle cx="1008" cy="72" r="5" fill="#ffc76b"/>
 <text x="1024" y="78" fill="#e0edf6" font-size="15">ANDROID + ARDUINO</text>
@@ -24,8 +24,8 @@
 <g stroke="#70dfd3" stroke-width="2" marker-end="url(#arrow)"><path d="M318 322H351"/><path d="M619 322H652"/><path d="M920 322H953"/></g>
 <g fill="#7ce8db" font-size="15" letter-spacing="1"><text x="84" y="282">01 / INPUT</text><text x="385" y="282">02 / DECISION</text><text x="686" y="282">03 / TRANSPORT</text><text x="987" y="282">04 / OUTPUT</text></g>
 <g fill="#f3f8fc" font-size="26" font-weight="600"><text x="84" y="326">Route + location</text><text x="385" y="326">Proximity bands</text><text x="686" y="326">Bluetooth SPP</text><text x="987" y="326">Haptic prototype</text></g>
-<g fill="#b8cbd9" font-size="17"><text x="84" y="361">Maps / GPS / waypoints</text><text x="385" y="361">ASCII commands 0 · 1 · 2</text><text x="686" y="361">Android → controller</text><text x="987" y="361">Arduino / coin motors</text></g>
+<g fill="#b8cbd9" font-size="17"><text x="84" y="361">Maps / GPS / waypoints</text><text x="385" y="361">ASCII commands 0 · 1 · 2 · 3</text><text x="686" y="361">Android → left / right</text><text x="987" y="361">Arduino / left + right units</text></g>
 <path d="M64 431H1216" stroke="#365363"/>
-<text x="64" y="469" fill="#b8cbd9" font-size="17">CONCEPT → SOFTWARE ACCEPTANCE → ASSEMBLY → FUNCTIONAL DEMO</text>
+<text x="64" y="469" fill="#b8cbd9" font-size="17">CONCEPT → FEATURE ITERATION → HARDWARE INTEGRATION → DEMO</text>
 <text x="1216" y="469" text-anchor="end" fill="#7ce8db" font-size="15">SYSTEM ILLUSTRATION</text>
 </g></svg>
