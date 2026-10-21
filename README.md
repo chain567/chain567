@@ -2,7 +2,7 @@
 
 # Hi, I'm Chain
 
-I enjoy turning practical problems into working tools and physical prototypes. My projects span Python automation, an AV operations demo, Android-to-Arduino integration, team hackathon contributions, and algorithm practice.
+I enjoy turning practical problems into working tools and physical prototypes. My projects span Python automation, an AV operations demo, Android-to-Arduino integration, and algorithm practice.
 
 I bring a hands-on approach: define the behavior, connect the pieces, test what actually happens, and improve the result. I use AI-assisted development and describe my role and implementation provenance in project documentation.
 
@@ -13,10 +13,8 @@ I bring a hands-on approach: define the behavior, connect the pieces, test what 
 | **Haptic Navigation** | Original concept, hands-on hardware integration, software acceptance, final testing, and technical presentation | [Technical case study](projects/haptic-navigation.md) |
 | **AV Operations Portal** | Python/Streamlit sample with CSV inventory, manager/technician roles, JSON command simulation, and audit logging | [Repository](https://github.com/chain567/nyu-av-sample-app) |
 | **Visio Batch Image Export** | Python desktop utility using Windows COM automation to export document trees while preserving folder structure | [Repository](https://github.com/chain567/visio-batch-image) |
-| **Trainium Agent Labs — team contribution** | Reproducible experiment artifacts, model/calculator traces, and checker-policy work documented in submitted PRs | [Merged team-fork contribution](https://github.com/ChenYujunjks/trainium-agent-labs/pull/3) · [Upstream submission](https://github.com/yahavb/trainium-agent-labs/pull/37) |
 | **Algorithm Notes** | Python solutions and explanations covering arrays, strings, linked lists, trees, graphs, and dynamic programming | [Solutions & notes](https://github.com/chain567/leetcode-notes) |
 
-The Trainium links distinguish merged work in the team fork from the upstream submission, which remains open as of October 2026. The linked PRs describe team deliverables; no independent authorship or model-performance improvement is claimed here.
 
 ## Technical interests and project experience
 
