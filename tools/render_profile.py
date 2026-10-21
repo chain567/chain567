@@ -66,7 +66,7 @@ def hero():
         b += circle(x, 39, 3, accent, "pulse")
         b += text(x+10, 43, label, 10, "muted", cls="mono")
         b += text(x, 74, value, 17, weight=600)
-    svg("intro", 960, 112, "Hi, I'm Chain — computer science student", "C++ coursework, Python projects and self-directed learning. Tools, hardware and curiosity.", b)
+    svg("intro-compact", 960, 112, "Hi, I'm Chain — computer science student", "C++ coursework, Python projects and self-directed learning. Tools, hardware and curiosity.", b)
 
 
 def mobile_hero():
@@ -76,7 +76,7 @@ def mobile_hero():
     b += text(21, 72, "Computer science student.", 17, "muted")
     b += circle(24, 103, 3, "blue", "pulse")
     b += text(35, 108, "C++ coursework · Python · self-learning", 15, "muted")
-    svg("intro-mobile", 480, 126, "Hi, I'm Chain — computer science student", "C++ in class, Python in projects and self-directed learning.", b)
+    svg("intro-mobile-compact", 480, 126, "Hi, I'm Chain — computer science student", "C++ in class, Python in projects and self-directed learning.", b)
 
 
 def card_base(number, title, label, accent):

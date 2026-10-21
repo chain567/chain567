@@ -1,8 +1,8 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/intro-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/profile/intro-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-dark.svg">
-  <img src="assets/profile/intro-light.svg" width="100%" alt="Hi, I'm Chain. Computer science student: C++ in class, Python in projects, and self-directed learning.">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/intro-mobile-compact-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile/intro-mobile-compact-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/intro-compact-dark.svg">
+  <img src="assets/profile/intro-compact-light.svg" width="100%" alt="Hi, I'm Chain. Computer science student: C++ in class, Python in projects, and self-directed learning.">
 </picture>
 
 Some ideas need a script. Others need a soldering iron. I enjoy both—and figuring out how the pieces fit together.
