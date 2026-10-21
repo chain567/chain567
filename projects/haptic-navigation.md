@@ -15,7 +15,7 @@
 
 I came up with the idea of supplementing on-screen navigation with vibration cues from a connected wearable. VibeGuide's Android app finds a route, follows the phone's location, and sends commands to left and right Arduino-based vibration units. The active side indicates the turn direction, and the vibration level changes with distance to the waypoint.
 
-This was a four-person course project in Fall 2025. I am now organizing it for my portfolio. The Android and Arduino source repository is currently private.
+This was a four-person course project in Fall 2025. I am now organizing it for my portfolio. [Explore the Android source and Arduino firmware →](https://github.com/chain567/Haptic-Navigation-Software)
 
 ## My role
 

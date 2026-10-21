@@ -10,7 +10,7 @@ I like working across software and hardware: defining useful features, connectin
 
 | Project | What it demonstrates | Explore |
 | --- | --- | --- |
-| **VibeGuide · Haptic Navigation** | Original concept, feature planning and iteration, hands-on hardware integration, a working demonstration, and technical presentation | [Technical case study](projects/haptic-navigation.md) |
+| **VibeGuide · Haptic Navigation** | Original concept, feature planning and iteration, hands-on hardware integration, a working demonstration, and technical presentation | [Source code](https://github.com/chain567/Haptic-Navigation-Software) · [Technical case study](projects/haptic-navigation.md) |
 | **AV Operations Portal** | Python/Streamlit sample with CSV inventory, manager/technician roles, JSON command simulation, and audit logging | [Repository](https://github.com/chain567/nyu-av-sample-app) |
 | **Visio Batch Image Export** | Python desktop utility using Windows COM automation to export document trees while preserving folder structure | [Repository](https://github.com/chain567/visio-batch-image) |
 | **Algorithm Notes** | Python solutions and explanations covering arrays, strings, linked lists, trees, graphs, and dynamic programming | [Solutions & notes](https://github.com/chain567/leetcode-notes) |
