@@ -9,7 +9,7 @@
 <rect width="1280" height="510" rx="20" fill="url(#bg)"/>
 <rect width="1280" height="510" rx="20" fill="url(#grid)"/>
 <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
-<text x="64" y="64" fill="#7ce8db" font-size="17" letter-spacing="3">PHYSICAL COMPUTING / PROJECT STUDY</text>
+<text x="64" y="64" fill="#7ce8db" font-size="17" letter-spacing="3">PHYSICAL COMPUTING / 2025 PROJECT</text>
 <text x="60" y="142" fill="#f3f8fc" font-size="64" font-weight="700">Haptic Navigation</text>
 <text x="64" y="187" fill="#b8cbd9" font-size="24">From route waypoints to a physical cue.</text>
 <rect x="984" y="52" width="232" height="40" rx="20" fill="#24394b"/>
@@ -26,6 +26,6 @@
 <g fill="#f3f8fc" font-size="26" font-weight="600"><text x="84" y="326">Route + location</text><text x="385" y="326">Proximity bands</text><text x="686" y="326">Bluetooth SPP</text><text x="987" y="326">Haptic prototype</text></g>
 <g fill="#b8cbd9" font-size="17"><text x="84" y="361">Maps / GPS / waypoints</text><text x="385" y="361">ASCII commands 0 · 1 · 2</text><text x="686" y="361">Android → controller</text><text x="987" y="361">Arduino / coin motors</text></g>
 <path d="M64 431H1216" stroke="#365363"/>
-<text x="64" y="469" fill="#b8cbd9" font-size="17">CONCEPT → SOFTWARE ACCEPTANCE → ASSEMBLY → FINAL TESTING</text>
+<text x="64" y="469" fill="#b8cbd9" font-size="17">CONCEPT → SOFTWARE ACCEPTANCE → ASSEMBLY → FUNCTIONAL DEMO</text>
 <text x="1216" y="469" text-anchor="end" fill="#7ce8db" font-size="15">SYSTEM ILLUSTRATION</text>
 </g></svg>
