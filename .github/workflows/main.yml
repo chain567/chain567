@@ -1,33 +1,30 @@
-name: Generate Datas
+name: Update contribution animation
 
 on:
-  schedule: 
-    - cron: "0 */12 * * *"
+  schedule:
+    - cron: "0 12 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-animation
+  cancel-in-progress: true
+
 jobs:
-  build:
-    name: Jobs to update datas
+  generate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: generate-github-contribution-grid-snake
+      - name: Generate contribution grid
         uses: Platane/snk@v3
         with:
           github_user_name: chain567
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Update README with current month and year
-        run: |
-          CURRENT_DATE=$(date +"%B %Y")
-          echo "Current date: $CURRENT_DATE"
-          
-          sed -i "/<!-- DATE_START -->/,/<!-- DATE_END -->/c\<!-- DATE_START -->\nLast updated: $CURRENT_DATE\n<!-- DATE_END -->" README.md
-
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Publish animation assets
         uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
           target_branch: output
@@ -35,11 +32,3 @@ jobs:
           keep_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit updated README to main
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff-index --quiet HEAD || git commit -m "Update last updated date in README [skip ci]"
-          git push origin main
