@@ -2,31 +2,66 @@
 
 # About Me
 
-I enjoy turning practical problems into working tools and physical prototypes. My projects span Python automation, an AV operations demo, Android-to-Arduino integration, and algorithm practice.
+I'm Chain, a computer science student. I enjoy figuring out how things work, then putting the pieces together into something useful: a desktop tool that handles repetitive file exports, an operations dashboard, or a wearable that turns navigation instructions into vibration cues.
 
-I like working across software and hardware: defining useful features, connecting the pieces, and refining the result through hands-on testing.
+I'm especially interested in the places where software meets a physical device or an everyday workflow. I like shaping an idea into concrete features, working through integration problems, and explaining how the result works. My projects have taken me from Python and Windows automation to Android, Bluetooth, circuit assembly, and soldering.
 
-## Selected work
+**Explore:** [Software + hardware](#vibeguide--haptic-navigation) · [Desktop automation](#visio-batch-image-export) · [Application workflows](#av-operations-portal) · [Learning notes](#algorithms--learning-notes)
 
-| Project | What it demonstrates | Explore |
-| --- | --- | --- |
-| **VibeGuide · Haptic Navigation** | Original concept, feature planning and iteration, hands-on hardware integration, a working demonstration, and technical presentation | [Source code](https://github.com/chain567/Haptic-Navigation-Software) · [Technical case study](projects/haptic-navigation.md) |
-| **AV Operations Portal** | Python/Streamlit sample with CSV inventory, manager/technician roles, JSON command simulation, and audit logging | [Repository](https://github.com/chain567/nyu-av-sample-app) |
-| **Visio Batch Image Export** | Python desktop utility using Windows COM automation to export document trees while preserving folder structure | [Repository](https://github.com/chain567/visio-batch-image) |
-| **Algorithm Notes** | Python solutions and explanations covering arrays, strings, linked lists, trees, graphs, and dynamic programming | [Solutions & notes](https://github.com/chain567/leetcode-notes) |
+## Selected projects
 
-## Technical interests and project experience
+### VibeGuide · Haptic Navigation
 
-| Area | Tools and concepts in my projects |
+*Android · Kotlin · Jetpack Compose · Bluetooth Classic · Arduino*
+
+VibeGuide is a navigation prototype that connects an Android map app to left and right wearable vibration units. Direction selects the side; distance changes the vibration level and triggers warning cues.
+
+I originated the idea and led feature planning and iteration in our four-person course team. I worked hands-on throughout circuit assembly, completed about half the soldering, handled the final functional test, and gave the main technical explanation. This project brought together the parts I enjoy most: defining behavior, connecting software with hardware, and getting a prototype ready to demonstrate.
+
+[Source & firmware](https://github.com/chain567/Haptic-Navigation-Software) · [My role, prototype & system flow](projects/haptic-navigation.md)
+
+### Visio Batch Image Export
+
+*Python · Tkinter · Windows COM automation*
+
+A desktop utility for exporting folders of Visio documents to PNG or JPG. It preserves the folder structure, supports page selection, and skips background pages. A background worker and progress log keep the interface responsive during batch processing.
+
+I like tools that work with software people already use. This utility drives a local Visio installation through COM, turning a repeated manual task into a configurable workflow.
+
+[Repository & English guide](https://github.com/chain567/visio-batch-image/blob/main/README.en.md) · [Conversion and UI code](https://github.com/chain567/visio-batch-image/blob/main/vsd2png.py)
+
+### AV Operations Portal
+
+*Python · Streamlit · Pandas · CSV · JSON*
+
+An independent sample app that brings equipment inventory, staff schedules, and device-command simulation into one interface. Manager and technician roles see different controls; managers can preview a JSON command, confirm it, and inspect the recorded action.
+
+The project explores how a small operations tool can connect data, permissions, and an understandable user workflow. Device commands are simulated, with sample data and local CSV storage.
+
+[Repository & screenshots](https://github.com/chain567/nyu-av-sample-app)
+
+### Algorithms & learning notes
+
+*Python · Selected C++ solutions · Data structures & algorithms*
+
+My practice notebook for working through approaches, edge cases, and complexity. The notes include initial ideas and alternative solutions, so I can revisit the reasoning as well as the code.
+
+[Browse the notebook](https://github.com/chain567/leetcode-notes) · [Sliding windows](https://github.com/chain567/leetcode-notes/blob/main/notes/567.%20Permutation%20in%20String.md) · [Dynamic programming](https://github.com/chain567/leetcode-notes/blob/main/notes/518.%20Coin%20Change%20II.md)
+
+## Technical experience
+
+| Area | Experience in these projects |
 | --- | --- |
-| Automation & data | Python, CSV workflows, Pandas, Windows COM, batch processing |
-| Applications & integration | Streamlit, JSON payloads, role-based demo workflows; Kotlin/Jetpack Compose and Google Maps integration in the haptic prototype |
-| Hardware & integration | Arduino, PWM motor control, Bluetooth-connected prototyping, circuit assembly, soldering, functional testing |
-| Ongoing learning | Data structures and algorithms, Java, MySQL, web APIs |
+| Python tools | Desktop interfaces, batch processing, file handling, worker threads, and progress reporting |
+| Applications & data | Streamlit dashboards, Pandas, CSV workflows, JSON command payloads, and role-based UI behavior |
+| Software + hardware | Android/Arduino integration, Bluetooth serial commands, PWM vibration control, circuit assembly, and soldering |
+| Project work | Feature planning, iterative troubleshooting, functional demonstrations, documentation, and technical presentations |
 
-I also enjoy small-form-factor PC builds and hands-on hardware troubleshooting.
+## What I'm learning
 
-**Start with the [haptic case study](projects/haptic-navigation.md)** for my contribution across concept, feature development, physical integration, and a functional demo, or browse the tools above for concrete implementation examples.
+I'm continuing to build my foundations in data structures and algorithms, Java, SQL/MySQL, and web APIs. I'm interested in how these fit into larger applications: how data moves between components, how devices communicate, and how a useful tool behaves when something goes wrong.
+
+Outside coursework, I enjoy small-form-factor PC builds and hands-on hardware troubleshooting. I like projects where I can move between a screen and a workbench.
 
 ## Contribution activity
 
