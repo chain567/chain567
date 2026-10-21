@@ -20,14 +20,12 @@ Some ideas need a script. Others need a soldering iron. I enjoy both—and figur
 
 **Behind VibeGuide:** [the original prototype, my contribution, and our system flow →](projects/haptic-navigation.md)
 
-<details>
-<summary><b>Open the toolbox</b> · tools, interests & what I'm learning</summary>
+## Tools & curiosity
 
 - **Right now:** C++ through coursework, Python projects, and self-directed learning.
 - **Tools in these projects:** Python, Tkinter, Windows COM, Streamlit, Pandas; Kotlin/Jetpack Compose and Bluetooth in the Android prototype.
 - **At the workbench:** Arduino, circuit assembly, soldering, and functional demos. Outside projects, I enjoy small-form-factor PC builds and hardware troubleshooting.
 
-</details>
 
 ## Contribution activity
 

@@ -57,41 +57,26 @@ def svg(name, width, height, title, description, body):
 
 
 def hero():
-    b = rect(1, 1, 958, 254, "bg", 16, "line")
-    b += text(32, 35, "CHAIN567 / A WORK IN PROGRESS", 12, "muted", 500, "mono", letter_spacing="1.4")
-    b += text(30, 105, "Hi, I'm Chain.", 57, weight=700, letter_spacing="-2")
-    b += rect(354, 66, 4, 42, "blue", 0, cls="cursor")
-    b += text(32, 143, "Computer science student. Curious about how things work.", 18)
-    b += text(32, 172, "I make tools, connect hardware, and learn along the way.", 18, "muted")
-    b += path("M32 197H928", width=1)
-    for x, label in [(32, "SOFTWARE + HARDWARE"), (279, "PRACTICAL AUTOMATION"), (538, "SMALL-FORM-FACTOR PCs")]:
-        b += text(x, 230, label, 11, "muted", 500, "mono", letter_spacing=".7")
-    b += circle(909, 225, 4, "green", "pulse")
-    # A compact learning switchboard: moving dots, no invented proficiency bars.
-    for i, (label, value, accent) in enumerate([("IN CLASS", "C++", "blue"), ("IN PROJECTS", "Python", "green"), ("AFTER CLASS", "Self-learning", "orange")]):
-        y = 36 + i * 45
-        b += rect(706, y, 220, 37, "panel", 7)
-        b += circle(720, y + 18, 3, accent, "pulse" + (" delayed" if i % 2 else ""))
-        b += text(732, y + 15, label, 9, "muted", 500, "mono")
-        b += text(732, y + 30, value, 14, weight=600)
-    svg("intro", 960, 256, "Hi, I'm Chain — computer science student", "C++ coursework, Python projects and self-directed learning. Software, hardware, practical automation and small-form-factor PCs.", b)
+    b = rect(1, 1, 958, 110, "bg", 12, "line")
+    b += text(24, 47, "Hi, I'm Chain.", 35, weight=700, letter_spacing="-1")
+    b += rect(224, 22, 3, 29, "blue", 0, cls="cursor")
+    b += text(25, 80, "Computer science student. Tools, hardware, and curiosity.", 17, "muted")
+    b += path("M530 22V90", width=1)
+    for x, label, value, accent in [(553, "IN CLASS", "C++", "blue"), (682, "IN PROJECTS", "Python", "green"), (813, "AFTER CLASS", "Self-learning", "orange")]:
+        b += circle(x, 39, 3, accent, "pulse")
+        b += text(x+10, 43, label, 10, "muted", cls="mono")
+        b += text(x, 74, value, 17, weight=600)
+    svg("intro", 960, 112, "Hi, I'm Chain — computer science student", "C++ coursework, Python projects and self-directed learning. Tools, hardware and curiosity.", b)
 
 
 def mobile_hero():
-    b = rect(1, 1, 478, 286, "bg", 14, "line")
-    b += text(24, 31, "CHAIN567 / A WORK IN PROGRESS", 10, "muted", 500, "mono", letter_spacing=".8")
-    b += text(22, 90, "Hi, I'm Chain.", 48, weight=700, letter_spacing="-1.5")
-    b += rect(298, 55, 3, 36, "blue", 0, cls="cursor")
-    b += text(24, 124, "Computer science student.", 18)
-    b += text(24, 151, "Tools, hardware, and a lot of curiosity.", 17, "muted")
-    for i, (label, value, accent) in enumerate([("IN CLASS", "C++", "blue"), ("IN PROJECTS", "Python", "green"), ("AFTER CLASS", "Self-learning", "orange")]):
-        x = 24 + i * 146
-        b += rect(x, 177, 138, 62, "panel", 7)
-        b += circle(x+11, 193, 3, accent, "pulse" + (" delayed" if i%2 else ""))
-        b += text(x+21, 197, label, 9, "muted", cls="mono")
-        b += text(x+10, 224, value, 17, weight=600)
-    b += text(24, 267, "SOFTWARE + HARDWARE / PRACTICAL TOOLS", 10, "muted", cls="mono", letter_spacing=".5")
-    svg("intro-mobile", 480, 288, "Hi, I'm Chain — computer science student", "C++ in class, Python in projects, self-directed learning. I enjoy tools and hands-on hardware.", b)
+    b = rect(1, 1, 478, 124, "bg", 12, "line")
+    b += text(20, 43, "Hi, I'm Chain.", 34, weight=700, letter_spacing="-1")
+    b += rect(214, 19, 3, 28, "blue", 0, cls="cursor")
+    b += text(21, 72, "Computer science student.", 17, "muted")
+    b += circle(24, 103, 3, "blue", "pulse")
+    b += text(35, 108, "C++ coursework · Python · self-learning", 15, "muted")
+    svg("intro-mobile", 480, 126, "Hi, I'm Chain — computer science student", "C++ in class, Python in projects and self-directed learning.", b)
 
 
 def card_base(number, title, label, accent):
