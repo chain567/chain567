@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="282" viewBox="0 0 480 282" role="img" aria-labelledby="title desc">
+<title id="title">Visio batch image export</title><desc id="desc">Export folders of Visio diagrams to images, keeping folder structure and showing progress. Python, Tkinter and Windows COM. Open the repository.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.flow{stroke-dasharray:5 8;animation:flow 2.4s linear infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite}
+.delayed{animation-delay:1.8s}
+.cursor{animation:cursor 1.2s steps(1) infinite}
+.page{animation:page 5s ease-in-out infinite}
+.route{animation:route 5s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-26}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes cursor{0%,48%{opacity:1}49%,100%{opacity:0}}
+@keyframes page{0%,100%{transform:translateY(0)}45%,65%{transform:translateY(-5px)}}
+@keyframes route{0%,100%{stroke-dashoffset:24}50%{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.flow,.pulse,.cursor,.page,.route{animation:none}}
+</style>
+<rect x="1" y="1" width="478" height="280" rx="14" fill="#171b20" stroke="#38434a" class=""/><text x="24" y="29" font-size="10" fill="#a3b0b7" font-weight="500" class="mono" letter-spacing="1">02 / DESKTOP AUTOMATION</text><text x="24" y="65" font-size="27" fill="#eff1e9" font-weight="650" class="" letter-spacing="-.7">Visio, minus the repetition.</text><path d="M439 25H453V39M453 25L438 40" fill="none" stroke="#a3d9ac" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="" /><path d="M24 245H456" fill="none" stroke="#38434a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="" /><text x="24" y="93" font-size="17" fill="#a3b0b7" font-weight="400" class="" >A folder of diagrams. A batch of images.</text><rect x="24" y="115" width="432" height="77" rx="8" fill="#222830" class=""/><g class="page"><rect x="46" y="128" width="33" height="44" rx="3" fill="#171b20" stroke="#38434a" class=""/><rect x="54" y="134" width="33" height="44" rx="3" fill="#171b20" stroke="#38434a" class=""/><text x="59" y="160" font-size="9" fill="#a3b0b7" font-weight="400" class="mono" >.vsd</text></g><path d="M104 153H351" fill="none" stroke="#a3d9ac" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="flow" /><rect x="177" y="138" width="110" height="30" rx="6" fill="#222830" class=""/><text x="232" y="158" font-size="10" fill="#a3d9ac" font-weight="600" class="mono" text-anchor="middle">BATCH EXPORT</text><rect x="367" y="130" width="56" height="44" rx="4" fill="#171b20" stroke="#38434a" class=""/><circle cx="407" cy="142" r="4" fill="#a3d9ac" class=""/><path d="M373 166L386 151L396 160L403 153L417 167" fill="none" stroke="#a3d9ac" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="" /><text x="24" y="219" font-size="13" fill="#eff1e9" font-weight="400" class="" >Folder structure kept. Progress on screen.</text><text x="24" y="267" font-size="12" fill="#a3d9ac" font-weight="500" class="" >Python · Tkinter · Windows COM</text>
+</svg>

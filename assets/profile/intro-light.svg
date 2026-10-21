@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="256" viewBox="0 0 960 256" role="img" aria-labelledby="title desc">
+<title id="title">Hi, I&#x27;m Chain — computer science student</title><desc id="desc">C++ coursework, Python projects and self-directed learning. Software, hardware, practical automation and small-form-factor PCs.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.flow{stroke-dasharray:5 8;animation:flow 2.4s linear infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite}
+.delayed{animation-delay:1.8s}
+.cursor{animation:cursor 1.2s steps(1) infinite}
+.page{animation:page 5s ease-in-out infinite}
+.route{animation:route 5s ease-in-out infinite}
+@keyframes flow{to{stroke-dashoffset:-26}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes cursor{0%,48%{opacity:1}49%,100%{opacity:0}}
+@keyframes page{0%,100%{transform:translateY(0)}45%,65%{transform:translateY(-5px)}}
+@keyframes route{0%,100%{stroke-dashoffset:24}50%{stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.flow,.pulse,.cursor,.page,.route{animation:none}}
+</style>
+<rect x="1" y="1" width="958" height="254" rx="16" fill="#f7f6f2" stroke="#d8dbd1" class=""/><text x="32" y="35" font-size="12" fill="#62675e" font-weight="500" class="mono" letter-spacing="1.4">CHAIN567 / A WORK IN PROGRESS</text><text x="30" y="105" font-size="57" fill="#20231f" font-weight="700" class="" letter-spacing="-2">Hi, I&#x27;m Chain.</text><rect x="354" y="66" width="4" height="42" rx="0" fill="#2856d8" class="cursor"/><text x="32" y="143" font-size="18" fill="#20231f" font-weight="400" class="" >Computer science student. Curious about how things work.</text><text x="32" y="172" font-size="18" fill="#62675e" font-weight="400" class="" >I make tools, connect hardware, and learn along the way.</text><path d="M32 197H928" fill="none" stroke="#d8dbd1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="" /><text x="32" y="230" font-size="11" fill="#62675e" font-weight="500" class="mono" letter-spacing=".7">SOFTWARE + HARDWARE</text><text x="279" y="230" font-size="11" fill="#62675e" font-weight="500" class="mono" letter-spacing=".7">PRACTICAL AUTOMATION</text><text x="538" y="230" font-size="11" fill="#62675e" font-weight="500" class="mono" letter-spacing=".7">SMALL-FORM-FACTOR PCs</text><circle cx="909" cy="225" r="4" fill="#326844" class="pulse"/><rect x="706" y="36" width="220" height="37" rx="7" fill="#eeede7" class=""/><circle cx="720" cy="54" r="3" fill="#2856d8" class="pulse"/><text x="732" y="51" font-size="9" fill="#62675e" font-weight="500" class="mono" >IN CLASS</text><text x="732" y="66" font-size="14" fill="#20231f" font-weight="600" class="" >C++</text><rect x="706" y="81" width="220" height="37" rx="7" fill="#eeede7" class=""/><circle cx="720" cy="99" r="3" fill="#326844" class="pulse delayed"/><text x="732" y="96" font-size="9" fill="#62675e" font-weight="500" class="mono" >IN PROJECTS</text><text x="732" y="111" font-size="14" fill="#20231f" font-weight="600" class="" >Python</text><rect x="706" y="126" width="220" height="37" rx="7" fill="#eeede7" class=""/><circle cx="720" cy="144" r="3" fill="#b84b29" class="pulse"/><text x="732" y="141" font-size="9" fill="#62675e" font-weight="500" class="mono" >AFTER CLASS</text><text x="732" y="156" font-size="14" fill="#20231f" font-weight="600" class="" >Self-learning</text>
+</svg>
