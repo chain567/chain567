@@ -1,6 +1,6 @@
 <img src="assets/profile-banner.svg" alt="Chain — build, integrate, validate. Software, hardware, and practical automation." width="100%">
 
-# Hi, I'm Chain
+# About Me
 
 I enjoy turning practical problems into working tools and physical prototypes. My projects span Python automation, an AV operations demo, Android-to-Arduino integration, and algorithm practice.
 
