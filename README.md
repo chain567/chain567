@@ -28,12 +28,9 @@ I also enjoy small-form-factor PC builds and hands-on hardware troubleshooting.
 
 **Start with the [haptic case study](projects/haptic-navigation.md)** for my contribution across concept, feature development, physical integration, and a functional demo, or browse the tools above for concrete implementation examples.
 
-<details>
-<summary>Contribution activity</summary>
+## Contribution activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chain567/chain567/output/github-contribution-grid-snake-dark.svg">
   <img alt="GitHub contribution grid animation" src="https://raw.githubusercontent.com/chain567/chain567/output/github-contribution-grid-snake.svg">
 </picture>
-
-</details>
