@@ -40,15 +40,9 @@ The firmware uses 9600-baud serial input and PWM pin 10, with low/high duty valu
 
 ## System architecture
 
-```mermaid
-flowchart LR
-    A[Destination + route steps] --> B[Distance and turn-side logic]
-    C[Phone location] --> B
-    B --> D[Left Bluetooth SPP connection]
-    B --> E[Right Bluetooth SPP connection]
-    D --> F[Arduino + left vibration motor]
-    E --> G[Arduino + right vibration motor]
-```
+![Our original VibeGuide system flowchart from 2025](../assets/haptic-system-flow.png)
+
+*Our original 2025 team flowchart. The app uses a 60 m warning threshold; this drawing shows 50 m.*
 
 ## What I took from the project
 
